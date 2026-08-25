@@ -1,0 +1,67 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5">
+      <div class="card border-0 shadow-sm">
+        <div class="card-body p-4 p-md-5">
+          <h1 class="h3 text-center mb-1">Welcome Back</h1>
+          <p class="text-slate text-center mb-4">Log in to manage your account and orders.</p>
+
+          @if (errorMessage()) {
+            <div class="alert alert-danger" role="alert">
+              <i class="bi bi-exclamation-triangle-fill me-1"></i>{{ errorMessage() }}
+            </div>
+          }
+
+          <form [formGroup]="form" (ngSubmit)="submit()" novalidate>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input
+                id="email"
+                type="email"
+                class="form-control"
+                formControlName="email"
+                [class.is-invalid]="email.invalid && email.touched"
+                placeholder="you@example.com">
+              @if (email.invalid && email.touched) {
+                <div class="invalid-feedback">
+                  @if (email.errors?.['required']) { Email is required. }
+                  @if (email.errors?.['email']) { Enter a valid email address. }
+                </div>
+              }
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input
+                id="password"
+                type="password"
+                class="form-control"
+                formControlName="password"
+                [class.is-invalid]="password.invalid && password.touched"
+                placeholder="••••••••">
+              @if (password.invalid && password.touched) {
+                <div class="invalid-feedback">
+                  @if (password.errors?.['required']) { Password is required. }
+                  @if (password.errors?.['minlength']) { Password must be at least 6 characters. }
+                </div>
+              }
+            </div>
+
+            <button type="submit" class="btn btn-sage w-100 py-2" [disabled]="loading()">
+              @if (loading()) {
+                <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                Logging in...
+              } @else {
+                Log In
+              }
+            </button>
+          </form>
+
+          <p class="text-center text-slate mt-4 mb-0">
+            Don't have an account? <a routerLink="/register">Create one</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

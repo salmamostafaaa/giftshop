@@ -1,0 +1,104 @@
+<div class="container py-4">
+  <!-- Breadcrumb -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Shop</li>
+    </ol>
+  </nav>
+
+  <h1 class="mb-4">Shop All Products</h1>
+
+  <div class="row g-4">
+    <!-- Sidebar filters -->
+    <aside class="col-lg-3">
+      <div class="mb-4">
+        <label class="form-label fw-semibold" for="search">Search</label>
+        <input
+          id="search"
+          type="search"
+          class="form-control"
+          placeholder="Search by name or brand..."
+          [(ngModel)]="searchTerm"
+          (ngModelChange)="onSearchChange()">
+      </div>
+
+      <h6 class="fw-semibold mb-2">Categories</h6>
+      <div class="list-group mb-4">
+        <button
+          type="button"
+          class="list-group-item list-group-item-action text-capitalize"
+          [class.active]="selectedCategory() === null"
+          (click)="selectCategory(null)">
+          All Categories
+        </button>
+        @for (cat of categories(); track cat) {
+          <button
+            type="button"
+            class="list-group-item list-group-item-action text-capitalize"
+            [class.active]="selectedCategory() === cat"
+            (click)="selectCategory(cat)">
+            {{ cat.replace('_',' ') }}
+          </button>
+        }
+      </div>
+
+      <button class="btn btn-outline-sage w-100" (click)="clearFilters()">
+        <i class="bi bi-x-circle me-1"></i>Clear Filters
+      </button>
+    </aside>
+
+    <!-- Product grid -->
+    <div class="col-lg-9">
+      <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 gap-2">
+        <p class="text-slate mb-0">{{ filtered().length }} products found</p>
+
+        <div class="btn-group" role="group" aria-label="Sort options">
+          <button type="button" class="btn btn-sm" [class.btn-sage]="sortBy()==='default'" [class.btn-outline-sage]="sortBy()!=='default'" (click)="setSort('default')">Default</button>
+          <button type="button" class="btn btn-sm" [class.btn-sage]="sortBy()==='price-asc'" [class.btn-outline-sage]="sortBy()!=='price-asc'" (click)="setSort('price-asc')">Price ↑</button>
+          <button type="button" class="btn btn-sm" [class.btn-sage]="sortBy()==='price-desc'" [class.btn-outline-sage]="sortBy()!=='price-desc'" (click)="setSort('price-desc')">Price ↓</button>
+          <button type="button" class="btn btn-sm" [class.btn-sage]="sortBy()==='rating-desc'" [class.btn-outline-sage]="sortBy()!=='rating-desc'" (click)="setSort('rating-desc')">Top Rated</button>
+        </div>
+      </div>
+
+      @if (loading()) {
+        <app-spinner message="Loading products..."></app-spinner>
+      } @else if (error()) {
+        <div class="alert alert-danger" role="alert">
+          <i class="bi bi-exclamation-triangle-fill me-1"></i>{{ error() }}
+        </div>
+      } @else if (filtered().length === 0) {
+        <div class="alert alert-info" role="alert">
+          No products match your filters. Try clearing them.
+        </div>
+      } @else {
+        <div class="row g-4">
+          @for (product of pagedResults(); track product.id) {
+            <div class="col-6 col-md-4">
+              <app-product-card [product]="product" (addToCart)="onAddToCart($event)"></app-product-card>
+            </div>
+          }
+        </div>
+
+        <!-- Pagination -->
+        @if (totalPages() > 1) {
+          <nav aria-label="Product pagination" class="mt-5">
+            <ul class="pagination justify-content-center">
+              <li class="page-item" [class.disabled]="currentPage() === 1">
+                <button class="page-link" (click)="goToPage(currentPage() - 1)">Previous</button>
+              </li>
+              @for (p of pageNumbers(); track p) {
+                <li class="page-item" [class.active]="p === currentPage()">
+                  <button class="page-link" (click)="goToPage(p)">{{ p }}</button>
+                </li>
+              }
+              <li class="page-item" [class.disabled]="currentPage() === totalPages()">
+                <button class="page-link" (click)="goToPage(currentPage() + 1)">Next</button>
+              </li>
+            </ul>
+          </nav>
+        }
+      }
+    </div>
+  </div>
+</div>

@@ -1,0 +1,174 @@
+<!-- Hero carousel -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="bg-ink text-white d-flex align-items-center" style="height: 420px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <span class="badge bg-sage text-ink mb-3">New Season</span>
+              <h1 class="display-5 fw-bold text-white">Gifts &amp; Beauty, Curated with Care</h1>
+              <p class="lead text-white-50">
+                Discover thoughtfully chosen beauty essentials and gift-worthy finds for every occasion.
+              </p>
+              <a routerLink="/products" class="btn btn-sage btn-lg mt-2">Shop the Collection</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="bg-sage d-flex align-items-center" style="height: 420px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <span class="badge bg-ink text-white mb-3">Limited Time</span>
+              <h1 class="display-5 fw-bold text-ink">Free Shipping Over $40</h1>
+              <p class="lead text-ink">Treat yourself or someone special — every order is gift-ready.</p>
+              <a routerLink="/categories" class="btn btn-outline-dark btn-lg mt-2">Browse Categories</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="bg-slate d-flex align-items-center" style="height: 420px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <span class="badge bg-ink text-white mb-3">Members Only</span>
+              <h1 class="display-5 fw-bold text-white">Create an Account for Perks</h1>
+              <p class="lead text-white-50">Save your favorites and check out faster next time.</p>
+              <a routerLink="/register" class="btn btn-sage btn-lg mt-2">Join Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Trust strip -->
+<div class="bg-mist border-bottom">
+  <div class="container py-3">
+    <div class="row text-center g-3">
+      <div class="col-6 col-md-3">
+        <i class="bi bi-truck text-ink fs-4"></i>
+        <p class="small text-slate mb-0">Fast Shipping</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <i class="bi bi-shield-check text-ink fs-4"></i>
+        <p class="small text-slate mb-0">Secure Checkout</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <i class="bi bi-arrow-repeat text-ink fs-4"></i>
+        <p class="small text-slate mb-0">Easy Returns</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <i class="bi bi-heart text-ink fs-4"></i>
+        <p class="small text-slate mb-0">Cruelty-Free Brands</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Featured products -->
+<section class="container py-5">
+  <h2 class="section-title">Featured Picks</h2>
+
+  @if (loading()) {
+    <app-spinner message="Fetching our favorite picks..."></app-spinner>
+  } @else if (error()) {
+    <div class="alert alert-danger d-flex align-items-center gap-2" role="alert">
+      <i class="bi bi-exclamation-triangle-fill"></i>
+      <span>{{ error() }}</span>
+    </div>
+  } @else {
+    <div class="row g-4">
+      @for (product of featured(); track product.id) {
+        <div class="col-6 col-md-4 col-lg-3">
+          <app-product-card [product]="product" (addToCart)="onAddToCart($event)"></app-product-card>
+        </div>
+      }
+    </div>
+  }
+
+  <div class="text-center mt-4">
+    <a routerLink="/products" class="btn btn-outline-sage btn-lg">View All Products</a>
+  </div>
+</section>
+
+<!-- FAQ accordion -->
+<section class="bg-mist py-5">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+            How long does shipping take?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Orders are typically processed within 1–2 business days and arrive within 3–7 business days,
+            depending on your location.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+            What is your return policy?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Unopened items can be returned within 30 days of delivery for a full refund. Visit your account's
+            order history to start a return.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+            Do I need an account to shop?
+          </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            You can browse and add items to your cart without an account, but you'll need to register or log in
+            to complete checkout and track your orders.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+            Are your products cruelty-free?
+          </button>
+        </h2>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Many of our brands are cruelty-free or vegan — look for the corresponding tag on each product page.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

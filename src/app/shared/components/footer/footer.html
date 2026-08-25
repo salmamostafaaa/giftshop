@@ -1,0 +1,46 @@
+<footer class="bg-ink text-white pt-5 pb-4 mt-5">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-12 col-md-4">
+        <h5 class="text-white d-flex align-items-center gap-2">
+          <i class="bi bi-gift-fill text-sage"></i> Aura Gift &amp; Beauty
+        </h5>
+        <p class="footer-link mb-0">
+          Thoughtfully curated beauty & gift essentials, delivered with care.
+        </p>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <h6 class="text-white">Shop</h6>
+        <ul class="list-unstyled">
+          <li><a class="footer-link" routerLink="/products">All Products</a></li>
+          <li><a class="footer-link" routerLink="/categories">Categories</a></li>
+          <li><a class="footer-link" routerLink="/cart">Cart</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <h6 class="text-white">Account</h6>
+        <ul class="list-unstyled">
+          <li><a class="footer-link" routerLink="/login">Login</a></li>
+          <li><a class="footer-link" routerLink="/register">Register</a></li>
+          <li><a class="footer-link" routerLink="/profile">My Account</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <h6 class="text-white">Stay in touch</h6>
+        <p class="footer-link small mb-2">Get gift ideas & offers in your inbox.</p>
+        <form class="d-flex" onsubmit="return false;">
+          <input type="email" class="form-control form-control-sm me-2" placeholder="Email address">
+          <button class="btn btn-sage btn-sm">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <hr class="border-secondary my-4">
+    <p class="text-center footer-link small mb-0">
+      &copy; {{ year }} Aura Gift &amp; Beauty Shop — built with Angular &amp; Bootstrap 5.
+    </p>
+  </div>
+</footer>

@@ -1,0 +1,33 @@
+<div class="container py-4">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Categories</li>
+    </ol>
+  </nav>
+
+  <h1 class="mb-4">Shop by Category</h1>
+
+  @if (loading()) {
+    <app-spinner message="Loading categories..."></app-spinner>
+  } @else {
+    <div class="row g-4">
+      @for (cat of categories(); track cat.name) {
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm card-hover cursor-pointer" (click)="goToCategory(cat.name)">
+            <img
+              [src]="cat.sampleImage || placeholderFor(cat.name)"
+              (error)="$any($event.target).src = placeholderFor(cat.name)"
+              class="card-img-top"
+              style="height: 160px; object-fit: cover;"
+              [alt]="cat.name">
+            <div class="card-body text-center">
+              <h6 class="card-title text-capitalize mb-1">{{ cat.name.replace('_',' ') }}</h6>
+              <span class="badge bg-mist text-ink border">{{ cat.count }} items</span>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  }
+</div>

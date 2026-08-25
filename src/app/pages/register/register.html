@@ -1,0 +1,118 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-7 col-lg-6">
+      <div class="card border-0 shadow-sm">
+        <div class="card-body p-4 p-md-5">
+          <h1 class="h3 text-center mb-1">Create Your Account</h1>
+          <p class="text-slate text-center mb-4">Join Aura for a faster checkout and order tracking.</p>
+
+          @if (errorMessage()) {
+            <div class="alert alert-danger" role="alert">
+              <i class="bi bi-exclamation-triangle-fill me-1"></i>{{ errorMessage() }}
+            </div>
+          }
+
+          <form [formGroup]="form" (ngSubmit)="submit()" novalidate>
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input
+                id="fullName"
+                type="text"
+                class="form-control"
+                formControlName="fullName"
+                [class.is-invalid]="fullName.invalid && fullName.touched"
+                placeholder="Jane Doe">
+              @if (fullName.invalid && fullName.touched) {
+                <div class="invalid-feedback">
+                  @if (fullName.errors?.['required']) { Full name is required. }
+                  @if (fullName.errors?.['minlength']) { Name must be at least 2 characters. }
+                </div>
+              }
+            </div>
+
+            <div class="mb-3">
+              <label for="regEmail" class="form-label">Email address</label>
+              <input
+                id="regEmail"
+                type="email"
+                class="form-control"
+                formControlName="email"
+                [class.is-invalid]="email.invalid && email.touched"
+                placeholder="you@example.com">
+              @if (email.invalid && email.touched) {
+                <div class="invalid-feedback">
+                  @if (email.errors?.['required']) { Email is required. }
+                  @if (email.errors?.['email']) { Enter a valid email address. }
+                </div>
+              }
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="regPassword" class="form-label">Password</label>
+                <input
+                  id="regPassword"
+                  type="password"
+                  class="form-control"
+                  formControlName="password"
+                  [class.is-invalid]="password.invalid && password.touched"
+                  placeholder="••••••••">
+                @if (password.invalid && password.touched) {
+                  <div class="invalid-feedback">
+                    @if (password.errors?.['required']) { Password is required. }
+                    @if (password.errors?.['minlength']) { At least 6 characters. }
+                  </div>
+                }
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <label for="confirmPassword" class="form-label">Confirm Password</label>
+                <input
+                  id="confirmPassword"
+                  type="password"
+                  class="form-control"
+                  formControlName="confirmPassword"
+                  [class.is-invalid]="(confirmPassword.touched && confirmPassword.invalid) || (form.errors?.['passwordsMismatch'] && confirmPassword.touched)"
+                  placeholder="••••••••">
+                @if (confirmPassword.touched && confirmPassword.errors?.['required']) {
+                  <div class="invalid-feedback">Please confirm your password.</div>
+                }
+                @if (form.errors?.['passwordsMismatch'] && confirmPassword.touched && !confirmPassword.errors?.['required']) {
+                  <div class="invalid-feedback d-block">Passwords do not match.</div>
+                }
+              </div>
+            </div>
+
+            <div class="form-check mb-4">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="agreeTerms"
+                formControlName="agreeTerms"
+                [class.is-invalid]="agreeTerms.invalid && agreeTerms.touched">
+              <label class="form-check-label small" for="agreeTerms">
+                I agree to the Terms of Service and Privacy Policy
+              </label>
+              @if (agreeTerms.invalid && agreeTerms.touched) {
+                <div class="invalid-feedback">You must agree before continuing.</div>
+              }
+            </div>
+
+            <button type="submit" class="btn btn-sage w-100 py-2" [disabled]="loading()">
+              @if (loading()) {
+                <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                Creating account...
+              } @else {
+                Create Account
+              }
+            </button>
+          </form>
+
+          <p class="text-center text-slate mt-4 mb-0">
+            Already have an account? <a routerLink="/login">Log in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

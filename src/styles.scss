@@ -1,0 +1,161 @@
+@use 'sass:color';
+/* ==========================================================================
+   Aura Gift & Beauty Shop — Global Styles
+   Custom color palette:
+   --color-ink   : #19183B  (deep navy - headings, navbar, footer)
+   --color-slate : #708993  (slate blue-grey - secondary text, borders)
+   --color-sage  : #A1C2BD  (sage green - accents, buttons)
+   --color-mist  : #E7F2EF  (light mint - backgrounds)
+   ========================================================================== */
+
+// ---- 1. Override Bootstrap's Sass variables BEFORE importing Bootstrap ----
+$primary:   #19183B;
+$secondary: #708993;
+$success:   #6f9a8d;
+$info:      #7fa8b3;
+$warning:   #d9a441;
+$danger:    #b3543f;
+$light:     #E7F2EF;
+$dark:      #19183B;
+
+$body-bg:    #ffffff;
+$body-color: #2c2c3a;
+
+$link-color: $primary;
+$link-hover-color: color.adjust($primary, $lightness: -10%);
+
+$font-family-sans-serif: "Poppins", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+$border-radius:            .6rem;
+$border-radius-sm:         .4rem;
+$border-radius-lg:         .9rem;
+
+$enable-shadows: false;
+$enable-gradients: false;
+
+@import "bootstrap/scss/bootstrap";
+
+// ---- 2. Custom CSS variables (used directly in component styles) ----
+:root {
+  --color-ink:   #19183B;
+  --color-slate: #708993;
+  --color-sage:  #A1C2BD;
+  --color-mist:  #E7F2EF;
+}
+
+// ---- 3. Global element styling ----
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-mist);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+// ---- 4. Reusable utility classes ----
+.bg-sage      { background-color: var(--color-sage) !important; }
+.bg-mist      { background-color: var(--color-mist) !important; }
+.bg-ink       { background-color: var(--color-ink) !important; }
+.text-ink     { color: var(--color-ink) !important; }
+.text-slate   { color: var(--color-slate) !important; }
+.text-sage    { color: var(--color-sage) !important; }
+
+.btn-sage {
+  background-color: var(--color-sage);
+  border-color: var(--color-sage);
+  color: var(--color-ink);
+  font-weight: 600;
+
+  &:hover, &:focus {
+    background-color: color.adjust(#A1C2BD, $lightness: -8%);
+    border-color: color.adjust(#A1C2BD, $lightness: -8%);
+    color: var(--color-ink);
+  }
+}
+
+.btn-outline-sage {
+  border-color: var(--color-sage);
+  color: var(--color-ink);
+  font-weight: 600;
+
+  &:hover {
+    background-color: var(--color-sage);
+    color: var(--color-ink);
+  }
+}
+
+.card {
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 .75rem 1.5rem rgba(25, 24, 59, .12) !important;
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: .6rem;
+  margin-bottom: 1.75rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background-color: var(--color-sage);
+    border-radius: 4px;
+  }
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: .3px;
+}
+
+.rating-progress .progress-bar {
+  background-color: var(--color-sage);
+}
+
+.cursor-pointer { cursor: pointer; }
+
+// Skeleton loading shimmer used while API data is loading
+.skeleton {
+  background: linear-gradient(90deg, #eef3f2 25%, #f7fafa 37%, #eef3f2 63%);
+  background-size: 400% 100%;
+  animation: skeleton-loading 1.4s ease infinite;
+  border-radius: var(--bs-border-radius);
+}
+
+@keyframes skeleton-loading {
+  0%   { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
+}
+
+.footer-link {
+  color: rgba(255,255,255,.75);
+  text-decoration: none;
+
+  &:hover { color: #fff; }
+}

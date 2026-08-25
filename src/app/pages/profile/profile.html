@@ -1,0 +1,65 @@
+<div class="container py-4">
+  <h1 class="mb-4">My Account</h1>
+
+  <div class="row g-4">
+    <div class="col-lg-4">
+      <div class="card border-0 shadow-sm text-center">
+        <div class="card-body p-4">
+          <div class="bg-mist rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+               style="width: 80px; height: 80px;">
+            <i class="bi bi-person-fill fs-1 text-ink"></i>
+          </div>
+          <h5 class="mb-1">{{ auth.currentUser()?.fullName }}</h5>
+          <p class="text-slate small">{{ auth.currentUser()?.email }}</p>
+          <span class="badge bg-sage text-ink mb-3">Member</span>
+          <button class="btn btn-outline-danger w-100" (click)="logout()">
+            <i class="bi bi-box-arrow-right me-1"></i>Logout
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <div class="card border-0 shadow-sm">
+        <div class="card-body p-4">
+          <h5 class="card-title mb-4">Order History</h5>
+
+          <div class="table-responsive">
+            <table class="table align-middle">
+              <thead>
+                <tr class="text-slate">
+                  <th>Order</th>
+                  <th>Date</th>
+                  <th>Items</th>
+                  <th>Total</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (order of orders; track order.id) {
+                  <tr>
+                    <td class="fw-semibold">{{ order.id }}</td>
+                    <td>{{ order.date }}</td>
+                    <td>{{ order.items }}</td>
+                    <td>{{ order.total }}</td>
+                    <td style="min-width: 160px;">
+                      <span class="badge mb-1" [ngClass]="statusBadgeClass(order.status)">{{ order.status }}</span>
+                      <div class="progress rating-progress" style="height: 6px;">
+                        <div class="progress-bar" role="progressbar" [style.width.%]="order.progress"></div>
+                      </div>
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+
+          <div class="alert alert-info mt-3 mb-0 small">
+            <i class="bi bi-info-circle-fill me-1"></i>
+            Order history shown here is illustrative demo data for this project.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

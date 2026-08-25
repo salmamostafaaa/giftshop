@@ -1,0 +1,12 @@
+<span class="d-inline-flex align-items-center gap-1 text-warning">
+  @for (s of stars(); track $index) {
+    @if (s === 'full') {
+      <i class="bi bi-star-fill"></i>
+    } @else if (s === 'half') {
+      <i class="bi bi-star-half"></i>
+    } @else {
+      <i class="bi bi-star"></i>
+    }
+  }
+  <span class="text-slate small ms-1">({{ ratingText() }})</span>
+</span>

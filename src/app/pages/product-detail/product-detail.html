@@ -1,0 +1,126 @@
+<div class="container py-4">
+  @if (loading()) {
+    <app-spinner message="Loading product details..."></app-spinner>
+  } @else if (notFound()) {
+    <div class="alert alert-warning">
+      <i class="bi bi-exclamation-triangle-fill me-1"></i>
+      We couldn't find that product.
+      <a routerLink="/products" class="alert-link">Back to shop</a>.
+    </div>
+  } @else if (product(); as p) {
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+        <li class="breadcrumb-item"><a routerLink="/products">Shop</a></li>
+        <li class="breadcrumb-item active text-capitalize" aria-current="page">{{ p.name }}</li>
+      </ol>
+    </nav>
+
+    <div class="row g-5">
+      <div class="col-md-6">
+        <div class="ratio ratio-1x1 bg-mist rounded overflow-hidden shadow-sm">
+          <img
+            [src]="p.image_link || placeholderImage"
+            (error)="$any($event.target).src = placeholderImage"
+            class="w-100 h-100"
+            style="object-fit: cover;"
+            [alt]="p.name">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        @if (p.category) {
+          <span class="badge bg-mist text-ink border text-capitalize mb-2">{{ p.category.replace('_',' ') }}</span>
+        }
+        <h1 class="h2">{{ p.name }}</h1>
+        <p class="text-slate">by <strong>{{ p.brand || 'Aura' }}</strong></p>
+
+        <app-star-rating [rating]="p.rating" class="d-block mb-3"></app-star-rating>
+
+        <h3 class="text-ink mb-3">{{ p.price_sign || '$' }}{{ p.price }}</h3>
+
+        @if (p.tag_list.length) {
+          <div class="mb-3 d-flex flex-wrap gap-2">
+            @for (tag of p.tag_list; track tag) {
+              <span class="badge bg-sage text-ink text-capitalize">{{ tag }}</span>
+            }
+          </div>
+        }
+
+        @if (p.product_colors.length) {
+          <div class="mb-3">
+            <p class="small fw-semibold mb-1">Available Shades</p>
+            <div class="d-flex gap-2">
+              @for (c of p.product_colors; track c.hex_value) {
+                <span
+                  class="rounded-circle border d-inline-block"
+                  style="width: 28px; height: 28px;"
+                  [style.background-color]="'#' + c.hex_value"
+                  [title]="c.colour_name"
+                  data-bs-toggle="tooltip">
+                </span>
+              }
+            </div>
+          </div>
+        }
+
+        <!-- Quantity + add to cart -->
+        <div class="d-flex align-items-center gap-3 my-4">
+          <div class="btn-group" role="group" aria-label="Quantity selector">
+            <button class="btn btn-outline-sage" (click)="decrement()">−</button>
+            <button class="btn btn-outline-sage disabled">{{ quantity() }}</button>
+            <button class="btn btn-outline-sage" (click)="increment()">+</button>
+          </div>
+          <button class="btn btn-sage btn-lg flex-grow-1" (click)="addToCart()">
+            <i class="bi bi-cart-plus me-2"></i>Add to Cart
+          </button>
+        </div>
+
+        <!-- Tabs: description / details -->
+        <ul class="nav nav-pills mb-3" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-description" type="button">
+              Description
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-details" type="button">
+              Details
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content border rounded p-3 bg-white">
+          <div class="tab-pane fade show active" id="tab-description">
+            <p class="mb-0 text-slate">
+              {{ p.description || 'A best-selling favorite crafted with quality ingredients for everyday radiance.' }}
+            </p>
+          </div>
+          <div class="tab-pane fade" id="tab-details">
+            <table class="table table-sm mb-0">
+              <tbody>
+                <tr><th class="text-slate fw-normal">Brand</th><td>{{ p.brand || 'Aura' }}</td></tr>
+                <tr><th class="text-slate fw-normal">Category</th><td class="text-capitalize">{{ (p.category || '—').replace('_',' ') }}</td></tr>
+                <tr><th class="text-slate fw-normal">Rating</th><td>{{ p.rating || 'N/A' }} / 5</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related products -->
+    @if (related().length > 0) {
+      <section class="mt-5 pt-4 border-top">
+        <h2 class="section-title">You May Also Like</h2>
+        <div class="row g-4">
+          @for (r of related(); track r.id) {
+            <div class="col-6 col-md-3">
+              <app-product-card [product]="r" (addToCart)="onRelatedAddToCart($event)"></app-product-card>
+            </div>
+          }
+        </div>
+      </section>
+    }
+  }
+</div>

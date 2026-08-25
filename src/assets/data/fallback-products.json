@@ -1,0 +1,2312 @@
+[
+  {
+    "id": 3001,
+    "brand": "Petal & Co.",
+    "name": "Featherlight BB Cream",
+    "price": "16.08",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/bbcream,makeup?lock=3001",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Featherlight BB Cream by Petal & Co.. A best-selling bb & cc cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.8,
+    "category": "bb_cc",
+    "product_type": "bb_cc",
+    "tag_list": [
+      "best-seller",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3002,
+    "brand": "Velora",
+    "name": "Skin Perfecting CC Cream",
+    "price": "22.94",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/bbcream,makeup?lock=3002",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Skin Perfecting CC Cream by Velora. A best-selling bb & cc cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.8,
+    "category": "bb_cc",
+    "product_type": "bb_cc",
+    "tag_list": [
+      "new",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      }
+    ]
+  },
+  {
+    "id": 3003,
+    "brand": "Lumière Beauty",
+    "name": "Radiance BB Balm",
+    "price": "9.35",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/bbcream,makeup?lock=3003",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Radiance BB Balm by Lumière Beauty. A best-selling bb & cc cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "bb_cc",
+    "product_type": "bb_cc",
+    "tag_list": [
+      "best-seller",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3004,
+    "brand": "Sable & Rose",
+    "name": "Even Tone CC Fluid",
+    "price": "24.21",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/bbcream,makeup?lock=3004",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Even Tone CC Fluid by Sable & Rose. A best-selling bb & cc cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.4,
+    "category": "bb_cc",
+    "product_type": "bb_cc",
+    "tag_list": [
+      "new",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      }
+    ]
+  },
+  {
+    "id": 3005,
+    "brand": "Glow Theory",
+    "name": "Second-Skin BB Cream",
+    "price": "33.37",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/bbcream,makeup?lock=3005",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Second-Skin BB Cream by Glow Theory. A best-selling bb & cc cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "bb_cc",
+    "product_type": "bb_cc",
+    "tag_list": [
+      "vegan",
+      "long-wear"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      }
+    ]
+  },
+  {
+    "id": 3006,
+    "brand": "Meraki Cosmetics",
+    "name": "Full Coverage Concealer",
+    "price": "10.62",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/concealer,makeup?lock=3006",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Full Coverage Concealer by Meraki Cosmetics. A best-selling concealer product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.0,
+    "category": "concealer",
+    "product_type": "concealer",
+    "tag_list": [
+      "long-wear",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3007,
+    "brand": "Amara Beauty",
+    "name": "Bright Eye Concealer",
+    "price": "17.37",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/concealer,makeup?lock=3007",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Bright Eye Concealer by Amara Beauty. A best-selling concealer product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "concealer",
+    "product_type": "concealer",
+    "tag_list": [
+      "long-wear",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3008,
+    "brand": "Nectar Skin",
+    "name": "Creamy Corrector Stick",
+    "price": "20.65",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/concealer,makeup?lock=3008",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Creamy Corrector Stick by Nectar Skin. A best-selling concealer product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "concealer",
+    "product_type": "concealer",
+    "tag_list": [
+      "new",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3009,
+    "brand": "Blush & Bone",
+    "name": "Long-Wear Concealer",
+    "price": "15.44",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/concealer,makeup?lock=3009",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Long-Wear Concealer by Blush & Bone. A best-selling concealer product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.6,
+    "category": "concealer",
+    "product_type": "concealer",
+    "tag_list": [
+      "cruelty-free",
+      "long-wear"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3010,
+    "brand": "Rêve Beauty",
+    "name": "Hydrating Concealer Wand",
+    "price": "20.62",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/concealer,makeup?lock=3010",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Hydrating Concealer Wand by Rêve Beauty. A best-selling concealer product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.0,
+    "category": "concealer",
+    "product_type": "concealer",
+    "tag_list": [
+      "best-seller",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3011,
+    "brand": "Marbleglow",
+    "name": "Sculpting Contour Stick",
+    "price": "21.07",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/contour,makeup?lock=3011",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Sculpting Contour Stick by Marbleglow. A best-selling contour product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.8,
+    "category": "contour",
+    "product_type": "contour",
+    "tag_list": [
+      "new",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      }
+    ]
+  },
+  {
+    "id": 3012,
+    "brand": "Aster & Ivy",
+    "name": "Contour & Highlight Duo",
+    "price": "32.99",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/contour,makeup?lock=3012",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Contour & Highlight Duo by Aster & Ivy. A best-selling contour product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "contour",
+    "product_type": "contour",
+    "tag_list": [
+      "cruelty-free",
+      "long-wear"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3013,
+    "brand": "Terra Cosmetics",
+    "name": "Cream Contour Palette",
+    "price": "20.66",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/contour,makeup?lock=3013",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Cream Contour Palette by Terra Cosmetics. A best-selling contour product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.6,
+    "category": "contour",
+    "product_type": "contour",
+    "tag_list": [
+      "cruelty-free",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3014,
+    "brand": "Halo Beauty",
+    "name": "Matte Contour Powder",
+    "price": "25.97",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/contour,makeup?lock=3014",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Matte Contour Powder by Halo Beauty. A best-selling contour product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "contour",
+    "product_type": "contour",
+    "tag_list": [
+      "dermatologist-tested",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3015,
+    "brand": "Petal & Co.",
+    "name": "Contour Sculpting Kit",
+    "price": "15.04",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/contour,makeup?lock=3015",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Contour Sculpting Kit by Petal & Co.. A best-selling contour product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.1,
+    "category": "contour",
+    "product_type": "contour",
+    "tag_list": [
+      "cruelty-free",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      }
+    ]
+  },
+  {
+    "id": 3016,
+    "brand": "Velora",
+    "name": "Whipped Face Cream",
+    "price": "23.69",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facecream,cosmetics?lock=3016",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Whipped Face Cream by Velora. A best-selling cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.2,
+    "category": "cream",
+    "product_type": "cream",
+    "tag_list": [
+      "vegan",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3017,
+    "brand": "Lumière Beauty",
+    "name": "Silk Finish Cream Foundation",
+    "price": "18.04",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facecream,cosmetics?lock=3017",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Silk Finish Cream Foundation by Lumière Beauty. A best-selling cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.8,
+    "category": "cream",
+    "product_type": "cream",
+    "tag_list": [
+      "new",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      }
+    ]
+  },
+  {
+    "id": 3018,
+    "brand": "Sable & Rose",
+    "name": "Dewy Tinted Cream",
+    "price": "22.06",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facecream,cosmetics?lock=3018",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Dewy Tinted Cream by Sable & Rose. A best-selling cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.7,
+    "category": "cream",
+    "product_type": "cream",
+    "tag_list": [
+      "cruelty-free",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3019,
+    "brand": "Glow Theory",
+    "name": "Nourishing Face Cream",
+    "price": "33.64",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facecream,cosmetics?lock=3019",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Nourishing Face Cream by Glow Theory. A best-selling cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.5,
+    "category": "cream",
+    "product_type": "cream",
+    "tag_list": [
+      "best-seller",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3020,
+    "brand": "Meraki Cosmetics",
+    "name": "Velvet Cream Base",
+    "price": "11.51",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facecream,cosmetics?lock=3020",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Velvet Cream Base by Meraki Cosmetics. A best-selling cream product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.5,
+    "category": "cream",
+    "product_type": "cream",
+    "tag_list": [
+      "vegan",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3021,
+    "brand": "Amara Beauty",
+    "name": "Clear Brow Gel",
+    "price": "14.97",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/cosmeticgel,makeup?lock=3021",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Clear Brow Gel by Amara Beauty. A best-selling gel product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.8,
+    "category": "gel",
+    "product_type": "gel",
+    "tag_list": [
+      "cruelty-free",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      }
+    ]
+  },
+  {
+    "id": 3022,
+    "brand": "Nectar Skin",
+    "name": "Cooling Gel Primer",
+    "price": "25.80",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/cosmeticgel,makeup?lock=3022",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Cooling Gel Primer by Nectar Skin. A best-selling gel product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "gel",
+    "product_type": "gel",
+    "tag_list": [
+      "long-wear",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      }
+    ]
+  },
+  {
+    "id": 3023,
+    "brand": "Blush & Bone",
+    "name": "Tinted Lip Gel",
+    "price": "18.05",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/cosmeticgel,makeup?lock=3023",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Tinted Lip Gel by Blush & Bone. A best-selling gel product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.1,
+    "category": "gel",
+    "product_type": "gel",
+    "tag_list": [
+      "best-seller",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      }
+    ]
+  },
+  {
+    "id": 3024,
+    "brand": "Rêve Beauty",
+    "name": "Setting Gel Spray",
+    "price": "9.28",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/cosmeticgel,makeup?lock=3024",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Setting Gel Spray by Rêve Beauty. A best-selling gel product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.9,
+    "category": "gel",
+    "product_type": "gel",
+    "tag_list": [
+      "long-wear",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3025,
+    "brand": "Marbleglow",
+    "name": "Shine Control Gel",
+    "price": "10.21",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/cosmeticgel,makeup?lock=3025",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Shine Control Gel by Marbleglow. A best-selling gel product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "gel",
+    "product_type": "gel",
+    "tag_list": [
+      "best-seller",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3026,
+    "brand": "Aster & Ivy",
+    "name": "Liquid Glow Highlighter",
+    "price": "30.67",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/highlighter,makeup?lock=3026",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Liquid Glow Highlighter by Aster & Ivy. A best-selling highlighter product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.4,
+    "category": "highlighter",
+    "product_type": "highlighter",
+    "tag_list": [
+      "cruelty-free",
+      "long-wear"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3027,
+    "brand": "Terra Cosmetics",
+    "name": "Prism Powder Highlighter",
+    "price": "17.15",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/highlighter,makeup?lock=3027",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Prism Powder Highlighter by Terra Cosmetics. A best-selling highlighter product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.8,
+    "category": "highlighter",
+    "product_type": "highlighter",
+    "tag_list": [
+      "new",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      }
+    ]
+  },
+  {
+    "id": 3028,
+    "brand": "Halo Beauty",
+    "name": "Cream Highlight Stick",
+    "price": "9.78",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/highlighter,makeup?lock=3028",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Cream Highlight Stick by Halo Beauty. A best-selling highlighter product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "highlighter",
+    "product_type": "highlighter",
+    "tag_list": [
+      "new",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3029,
+    "brand": "Petal & Co.",
+    "name": "Moonlight Highlighter Duo",
+    "price": "21.18",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/highlighter,makeup?lock=3029",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Moonlight Highlighter Duo by Petal & Co.. A best-selling highlighter product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.9,
+    "category": "highlighter",
+    "product_type": "highlighter",
+    "tag_list": [
+      "long-wear",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3030,
+    "brand": "Velora",
+    "name": "Golden Hour Highlighter",
+    "price": "27.59",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/highlighter,makeup?lock=3030",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Golden Hour Highlighter by Velora. A best-selling highlighter product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.0,
+    "category": "highlighter",
+    "product_type": "highlighter",
+    "tag_list": [
+      "long-wear",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3031,
+    "brand": "Lumière Beauty",
+    "name": "Mirror Shine Lip Gloss",
+    "price": "31.57",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipgloss?lock=3031",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Mirror Shine Lip Gloss by Lumière Beauty. A best-selling lip gloss product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.1,
+    "category": "lip_gloss",
+    "product_type": "lip_gloss",
+    "tag_list": [
+      "long-wear",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      }
+    ]
+  },
+  {
+    "id": 3032,
+    "brand": "Sable & Rose",
+    "name": "Plumping Lip Gloss",
+    "price": "24.37",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipgloss?lock=3032",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Plumping Lip Gloss by Sable & Rose. A best-selling lip gloss product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.4,
+    "category": "lip_gloss",
+    "product_type": "lip_gloss",
+    "tag_list": [
+      "new",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      }
+    ]
+  },
+  {
+    "id": 3033,
+    "brand": "Glow Theory",
+    "name": "Tinted Lip Oil Gloss",
+    "price": "12.80",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipgloss?lock=3033",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Tinted Lip Oil Gloss by Glow Theory. A best-selling lip gloss product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.2,
+    "category": "lip_gloss",
+    "product_type": "lip_gloss",
+    "tag_list": [
+      "new",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3034,
+    "brand": "Meraki Cosmetics",
+    "name": "Crystal Clear Gloss",
+    "price": "12.63",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipgloss?lock=3034",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Crystal Clear Gloss by Meraki Cosmetics. A best-selling lip gloss product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.4,
+    "category": "lip_gloss",
+    "product_type": "lip_gloss",
+    "tag_list": [
+      "cruelty-free",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3035,
+    "brand": "Amara Beauty",
+    "name": "Velvet Shine Gloss",
+    "price": "9.63",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipgloss?lock=3035",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Velvet Shine Gloss by Amara Beauty. A best-selling lip gloss product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "lip_gloss",
+    "product_type": "lip_gloss",
+    "tag_list": [
+      "vegan",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3036,
+    "brand": "Nectar Skin",
+    "name": "Long-Lasting Lip Stain",
+    "price": "24.04",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstain,lipstick?lock=3036",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Long-Lasting Lip Stain by Nectar Skin. A best-selling lip stain product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.8,
+    "category": "lip_stain",
+    "product_type": "lip_stain",
+    "tag_list": [
+      "cruelty-free",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      }
+    ]
+  },
+  {
+    "id": 3037,
+    "brand": "Blush & Bone",
+    "name": "Watercolor Lip Tint",
+    "price": "29.62",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstain,lipstick?lock=3037",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Watercolor Lip Tint by Blush & Bone. A best-selling lip stain product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.8,
+    "category": "lip_stain",
+    "product_type": "lip_stain",
+    "tag_list": [
+      "vegan",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      }
+    ]
+  },
+  {
+    "id": 3038,
+    "brand": "Rêve Beauty",
+    "name": "Matte Lip Stain",
+    "price": "31.06",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstain,lipstick?lock=3038",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Matte Lip Stain by Rêve Beauty. A best-selling lip stain product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.2,
+    "category": "lip_stain",
+    "product_type": "lip_stain",
+    "tag_list": [
+      "new",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3039,
+    "brand": "Marbleglow",
+    "name": "Berry Tint Lip Stain",
+    "price": "18.14",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstain,lipstick?lock=3039",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Berry Tint Lip Stain by Marbleglow. A best-selling lip stain product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.8,
+    "category": "lip_stain",
+    "product_type": "lip_stain",
+    "tag_list": [
+      "best-seller",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      }
+    ]
+  },
+  {
+    "id": 3040,
+    "brand": "Aster & Ivy",
+    "name": "All-Day Lip Stain",
+    "price": "23.16",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstain,lipstick?lock=3040",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "All-Day Lip Stain by Aster & Ivy. A best-selling lip stain product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.2,
+    "category": "lip_stain",
+    "product_type": "lip_stain",
+    "tag_list": [
+      "new",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      }
+    ]
+  },
+  {
+    "id": 3041,
+    "brand": "Terra Cosmetics",
+    "name": "Velvet Matte Lipstick",
+    "price": "11.63",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstick?lock=3041",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Velvet Matte Lipstick by Terra Cosmetics. A best-selling lipstick product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      "dermatologist-tested",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      }
+    ]
+  },
+  {
+    "id": 3042,
+    "brand": "Halo Beauty",
+    "name": "Satin Finish Lipstick",
+    "price": "21.45",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstick?lock=3042",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Satin Finish Lipstick by Halo Beauty. A best-selling lipstick product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.8,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      "vegan",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      }
+    ]
+  },
+  {
+    "id": 3043,
+    "brand": "Petal & Co.",
+    "name": "Classic Cream Lipstick",
+    "price": "14.17",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstick?lock=3043",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Classic Cream Lipstick by Petal & Co.. A best-selling lipstick product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.0,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      "cruelty-free",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3044,
+    "brand": "Velora",
+    "name": "Hydra Glow Lipstick",
+    "price": "21.93",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstick?lock=3044",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Hydra Glow Lipstick by Velora. A best-selling lipstick product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.7,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      "new",
+      "long-wear"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3045,
+    "brand": "Lumière Beauty",
+    "name": "Bold Color Lipstick",
+    "price": "29.10",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/lipstick?lock=3045",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Bold Color Lipstick by Lumière Beauty. A best-selling lipstick product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      "long-wear",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      }
+    ]
+  },
+  {
+    "id": 3046,
+    "brand": "Sable & Rose",
+    "name": "Liquid Matte Foundation",
+    "price": "8.00",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/liquidfoundation,makeup?lock=3046",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Liquid Matte Foundation by Sable & Rose. A best-selling liquid product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.2,
+    "category": "liquid",
+    "product_type": "liquid",
+    "tag_list": [
+      "vegan",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3047,
+    "brand": "Glow Theory",
+    "name": "Liquid Eyeliner Pen",
+    "price": "11.25",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/liquidfoundation,makeup?lock=3047",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Liquid Eyeliner Pen by Glow Theory. A best-selling liquid product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.4,
+    "category": "liquid",
+    "product_type": "liquid",
+    "tag_list": [
+      "cruelty-free",
+      "long-wear"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3048,
+    "brand": "Meraki Cosmetics",
+    "name": "Liquid Blush Drops",
+    "price": "21.56",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/liquidfoundation,makeup?lock=3048",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Liquid Blush Drops by Meraki Cosmetics. A best-selling liquid product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.2,
+    "category": "liquid",
+    "product_type": "liquid",
+    "tag_list": [
+      "vegan",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3049,
+    "brand": "Amara Beauty",
+    "name": "Liquid Illuminator",
+    "price": "14.84",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/liquidfoundation,makeup?lock=3049",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Liquid Illuminator by Amara Beauty. A best-selling liquid product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.6,
+    "category": "liquid",
+    "product_type": "liquid",
+    "tag_list": [
+      "best-seller",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3050,
+    "brand": "Nectar Skin",
+    "name": "Liquid Eyeshadow",
+    "price": "16.13",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/liquidfoundation,makeup?lock=3050",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Liquid Eyeshadow by Nectar Skin. A best-selling liquid product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.9,
+    "category": "liquid",
+    "product_type": "liquid",
+    "tag_list": [
+      "new",
+      "long-wear"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3051,
+    "brand": "Blush & Bone",
+    "name": "Mineral Loose Powder",
+    "price": "21.63",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/mineralmakeup,powder?lock=3051",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Mineral Loose Powder by Blush & Bone. A best-selling mineral product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.2,
+    "category": "mineral",
+    "product_type": "mineral",
+    "tag_list": [
+      "cruelty-free",
+      "long-wear"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3052,
+    "brand": "Rêve Beauty",
+    "name": "Mineral Pressed Foundation",
+    "price": "31.16",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/mineralmakeup,powder?lock=3052",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Mineral Pressed Foundation by Rêve Beauty. A best-selling mineral product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.9,
+    "category": "mineral",
+    "product_type": "mineral",
+    "tag_list": [
+      "best-seller",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      }
+    ]
+  },
+  {
+    "id": 3053,
+    "brand": "Marbleglow",
+    "name": "Mineral Sunscreen Powder",
+    "price": "19.22",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/mineralmakeup,powder?lock=3053",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Mineral Sunscreen Powder by Marbleglow. A best-selling mineral product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "mineral",
+    "product_type": "mineral",
+    "tag_list": [
+      "vegan",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3054,
+    "brand": "Aster & Ivy",
+    "name": "Mineral Blush Compact",
+    "price": "28.27",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/mineralmakeup,powder?lock=3054",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Mineral Blush Compact by Aster & Ivy. A best-selling mineral product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.8,
+    "category": "mineral",
+    "product_type": "mineral",
+    "tag_list": [
+      "dermatologist-tested",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      }
+    ]
+  },
+  {
+    "id": 3055,
+    "brand": "Terra Cosmetics",
+    "name": "Mineral Setting Powder",
+    "price": "11.29",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/mineralmakeup,powder?lock=3055",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Mineral Setting Powder by Terra Cosmetics. A best-selling mineral product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.7,
+    "category": "mineral",
+    "product_type": "mineral",
+    "tag_list": [
+      "best-seller",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      }
+    ]
+  },
+  {
+    "id": 3056,
+    "brand": "Halo Beauty",
+    "name": "Neutral Eyeshadow Palette",
+    "price": "30.95",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeshadowpalette,makeup?lock=3056",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Neutral Eyeshadow Palette by Halo Beauty. A best-selling palette product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.8,
+    "category": "palette",
+    "product_type": "palette",
+    "tag_list": [
+      "new",
+      "long-wear"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      }
+    ]
+  },
+  {
+    "id": 3057,
+    "brand": "Petal & Co.",
+    "name": "Sunset Blush Palette",
+    "price": "18.20",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeshadowpalette,makeup?lock=3057",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Sunset Blush Palette by Petal & Co.. A best-selling palette product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.1,
+    "category": "palette",
+    "product_type": "palette",
+    "tag_list": [
+      "dermatologist-tested",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3058,
+    "brand": "Velora",
+    "name": "Everyday Contour Palette",
+    "price": "8.02",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeshadowpalette,makeup?lock=3058",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Everyday Contour Palette by Velora. A best-selling palette product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "palette",
+    "product_type": "palette",
+    "tag_list": [
+      "new",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3059,
+    "brand": "Lumière Beauty",
+    "name": "Bronze Glow Palette",
+    "price": "21.21",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeshadowpalette,makeup?lock=3059",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Bronze Glow Palette by Lumière Beauty. A best-selling palette product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.0,
+    "category": "palette",
+    "product_type": "palette",
+    "tag_list": [
+      "best-seller",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3060,
+    "brand": "Sable & Rose",
+    "name": "Rainbow Pigment Palette",
+    "price": "14.54",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeshadowpalette,makeup?lock=3060",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Rainbow Pigment Palette by Sable & Rose. A best-selling palette product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "palette",
+    "product_type": "palette",
+    "tag_list": [
+      "new",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      }
+    ]
+  },
+  {
+    "id": 3061,
+    "brand": "Glow Theory",
+    "name": "Precision Eyeliner Pencil",
+    "price": "18.26",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeliner,makeup?lock=3061",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Precision Eyeliner Pencil by Glow Theory. A best-selling pencil product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "pencil",
+    "product_type": "pencil",
+    "tag_list": [
+      "best-seller",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3062,
+    "brand": "Meraki Cosmetics",
+    "name": "Brow Defining Pencil",
+    "price": "9.02",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeliner,makeup?lock=3062",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Brow Defining Pencil by Meraki Cosmetics. A best-selling pencil product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.5,
+    "category": "pencil",
+    "product_type": "pencil",
+    "tag_list": [
+      "best-seller",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3063,
+    "brand": "Amara Beauty",
+    "name": "Lip Liner Pencil",
+    "price": "28.74",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeliner,makeup?lock=3063",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Lip Liner Pencil by Amara Beauty. A best-selling pencil product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "pencil",
+    "product_type": "pencil",
+    "tag_list": [
+      "best-seller",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3064,
+    "brand": "Nectar Skin",
+    "name": "Kohl Kajal Pencil",
+    "price": "7.81",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeliner,makeup?lock=3064",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Kohl Kajal Pencil by Nectar Skin. A best-selling pencil product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.9,
+    "category": "pencil",
+    "product_type": "pencil",
+    "tag_list": [
+      "vegan",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      }
+    ]
+  },
+  {
+    "id": 3065,
+    "brand": "Blush & Bone",
+    "name": "Waterproof Eye Pencil",
+    "price": "21.46",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/eyeliner,makeup?lock=3065",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Waterproof Eye Pencil by Blush & Bone. A best-selling pencil product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.9,
+    "category": "pencil",
+    "product_type": "pencil",
+    "tag_list": [
+      "best-seller",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  },
+  {
+    "id": 3066,
+    "brand": "Rêve Beauty",
+    "name": "Translucent Setting Powder",
+    "price": "12.85",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facepowder,makeup?lock=3066",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Translucent Setting Powder by Rêve Beauty. A best-selling powder product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.0,
+    "category": "powder",
+    "product_type": "powder",
+    "tag_list": [
+      "cruelty-free",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      }
+    ]
+  },
+  {
+    "id": 3067,
+    "brand": "Marbleglow",
+    "name": "Pressed Face Powder",
+    "price": "20.75",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facepowder,makeup?lock=3067",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Pressed Face Powder by Marbleglow. A best-selling powder product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.8,
+    "category": "powder",
+    "product_type": "powder",
+    "tag_list": [
+      "cruelty-free",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Rosewood"
+      }
+    ]
+  },
+  {
+    "id": 3068,
+    "brand": "Aster & Ivy",
+    "name": "Bronzing Powder",
+    "price": "7.91",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facepowder,makeup?lock=3068",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Bronzing Powder by Aster & Ivy. A best-selling powder product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.6,
+    "category": "powder",
+    "product_type": "powder",
+    "tag_list": [
+      "vegan",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "D9B08C",
+        "colour_name": "Warm Sand"
+      },
+      {
+        "hex_value": "A45A52",
+        "colour_name": "Brick Rose"
+      }
+    ]
+  },
+  {
+    "id": 3069,
+    "brand": "Terra Cosmetics",
+    "name": "Blotting Finish Powder",
+    "price": "10.32",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facepowder,makeup?lock=3069",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Blotting Finish Powder by Terra Cosmetics. A best-selling powder product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.7,
+    "category": "powder",
+    "product_type": "powder",
+    "tag_list": [
+      "long-wear",
+      "new"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "F2D2BD",
+        "colour_name": "Ivory Beige"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Espresso"
+      },
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      }
+    ]
+  },
+  {
+    "id": 3070,
+    "brand": "Halo Beauty",
+    "name": "Baked Powder Compact",
+    "price": "33.21",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://loremflickr.com/500/500/facepowder,makeup?lock=3070",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Baked Powder Compact by Halo Beauty. A best-selling powder product crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.0,
+    "category": "powder",
+    "product_type": "powder",
+    "tag_list": [
+      "vegan",
+      "dermatologist-tested"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97B63",
+        "colour_name": "Terracotta"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Blush Pink"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Soft Petal"
+      }
+    ]
+  }
+]
