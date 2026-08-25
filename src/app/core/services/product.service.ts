@@ -1,7 +1,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, map, shareReplay } from 'rxjs';
+import { Observable, catchError, map, shareReplay } from 'rxjs';
 import { Product } from '../models/product.model';
+import { environment } from '../../../environments/environment';
+
+/** Max number of items kept per category once the catalog is curated. */
+const MAX_ITEMS_PER_CATEGORY = 5;
 
 @Injectable({ providedIn: 'root' })
 export class ProductService {
@@ -11,55 +15,31 @@ export class ProductService {
   constructor(private http: HttpClient) {}
 
   /**
-   * Fetches the product catalog from our own curated dataset bundled in
-   * /assets. The public Makeup API this project used to call is old and
-   * abandoned — many of its image links are dead and some products have no
-   * price at all, so we no longer depend on it. Every product below is
-   * guaranteed to have a working image and a real price.
+   * Fetches the product catalog from the public Makeup API.
+   * If the live API is unreachable (it runs on a free Heroku-style host and can
+   * occasionally sleep or go offline), we transparently fall back to a bundled
+   * JSON dataset served from /assets — still a real HTTP request, never a
+   * hard-coded in-memory array.
+   *
+   * The raw API returns 1000+ products, many with no real photo (image_link is
+   * null or a broken placeholder). Before it reaches any page, the catalog is
+   * curated here: products without a usable image are dropped entirely, and
+   * each category is capped at MAX_ITEMS_PER_CATEGORY so the site stays a
+   * tight, browsable shop instead of dozens of near-duplicate pages.
    */
-  /** Max number of products kept per category, to keep the catalog small and curated. */
-  private static readonly MAX_PER_CATEGORY = 5;
-
   getProducts(): Observable<Product[]> {
     if (!this.products$) {
-      this.products$ = this.http.get<Product[]>('assets/data/fallback-products.json').pipe(
+      this.products$ = this.http.get<Product[]>(environment.makeupApiUrl).pipe(
+        catchError(() => {
+          console.warn('Makeup API unavailable — using bundled fallback dataset.');
+          return this.http.get<Product[]>('/assets/data/fallback-products.json');
+        }),
         map((list) => list.map((p) => this.normalize(p))),
         map((list) => this.curate(list)),
         shareReplay(1)
       );
     }
     return this.products$;
-  }
-
-  /** The live Makeup API occasionally returns null for array fields — guard against that here. */
-  private normalize(p: Product): Product {
-    return {
-      ...p,
-      tag_list: p.tag_list ?? [],
-      product_colors: p.product_colors ?? [],
-    };
-  }
-
-  /**
-   * Drops products with no real image (so the UI never has to fall back to the
-   * generic "Aura" placeholder), then caps each category at MAX_PER_CATEGORY
-   * items so the catalog stays small (e.g. lipstick: 122 -> 5).
-   */
-  private curate(list: Product[]): Product[] {
-    const withImages = list.filter((p) => !!p.image_link && p.image_link.trim().length > 0);
-
-    const perCategoryCount = new Map<string, number>();
-    const result: Product[] = [];
-
-    for (const p of withImages) {
-      const key = (p.category ?? '').toLowerCase();
-      const count = perCategoryCount.get(key) ?? 0;
-      if (count >= ProductService.MAX_PER_CATEGORY) continue;
-      perCategoryCount.set(key, count + 1);
-      result.push(p);
-    }
-
-    return result;
   }
 
   getProductById(id: number): Observable<Product | undefined> {
@@ -88,5 +68,37 @@ export class ProductService {
         return Array.from(set).sort();
       })
     );
+  }
+
+  /** The live Makeup API occasionally returns null for array fields — guard against that here. */
+  private normalize(p: Product): Product {
+    return {
+      ...p,
+      tag_list: p.tag_list ?? [],
+      product_colors: p.product_colors ?? [],
+    };
+  }
+
+  /** A product only counts as "real" if it has a usable, non-empty image URL. */
+  private hasUsableImage(p: Product): boolean {
+    const link = p.image_link?.trim();
+    return !!link && /^https?:\/\//i.test(link);
+  }
+
+  /** Drops image-less products and caps each category at MAX_ITEMS_PER_CATEGORY. */
+  private curate(list: Product[]): Product[] {
+    const withImages = list.filter((p) => this.hasUsableImage(p));
+    const perCategory = new Map<string, Product[]>();
+
+    for (const p of withImages) {
+      const key = p.category ?? 'uncategorized';
+      const bucket = perCategory.get(key) ?? [];
+      if (bucket.length < MAX_ITEMS_PER_CATEGORY) {
+        bucket.push(p);
+        perCategory.set(key, bucket);
+      }
+    }
+
+    return Array.from(perCategory.values()).flat();
   }
 }

@@ -5,7 +5,7 @@ export const routes: Routes = [
   {
     path: '',
     loadComponent: () => import('./pages/home/home').then((m) => m.Home),
-    title: 'Aura Electronics — Home',
+    title: 'Aura Gift & Beauty Shop — Home',
   },
   {
     path: 'products',

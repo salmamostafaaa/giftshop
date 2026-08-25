@@ -1,2311 +1,859 @@
 [
   {
-    "id": 4001,
-    "brand": "Nexova",
-    "name": "Nova X12 Smartphone",
-    "price": "417.09",
+    "id": 1001,
+    "brand": "Petal & Co.",
+    "name": "Velvet Matte Lipstick",
+    "price": "6.96",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1736191550786-46a46aa47394?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/lipstick-1001/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "Nova X12 Smartphone by Nexova. A best-selling smartphone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.3,
-    "category": "smartphones",
-    "product_type": "smartphones",
+    "description": "Velvet Matte Lipstick by Petal & Co.. A best-selling lipstick crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.1,
+    "category": "lipstick",
+    "product_type": "lipstick",
     "tag_list": [
-      "warranty-included",
-      "new"
+      "best-seller",
+      "vegan"
     ],
     "product_colors": [
       {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
+        "hex_value": "8E3B46",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
+        "hex_value": "B76E79",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4002,
-    "brand": "Volt & Co.",
-    "name": "Pulse Lite 5G Phone",
-    "price": "181.50",
+    "id": 1002,
+    "brand": "Nocturne",
+    "name": "Satin Rouge",
+    "price": "33.18",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1736191550786-46a46aa47394?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/lipstick-1002/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "Pulse Lite 5G Phone by Volt & Co.. A best-selling smartphone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.3,
-    "category": "smartphones",
-    "product_type": "smartphones",
+    "description": "Satin Rouge by Nocturne. A best-selling lipstick crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.4,
+    "category": "lipstick",
+    "product_type": "lipstick",
     "tag_list": [
-      "fast-shipping",
-      "new"
+      "paraben-free",
+      "long-lasting"
     ],
     "product_colors": [
       {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
+        "hex_value": "5C4033",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
+        "hex_value": "A64B4B",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4003,
-    "brand": "Circuit Labs",
-    "name": "Orbit Max Smartphone",
-    "price": "98.79",
+    "id": 1003,
+    "brand": "Lumen",
+    "name": "Hydra Gloss Lip Tint",
+    "price": "35.24",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1736191550786-46a46aa47394?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/lipstick-1003/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "Orbit Max Smartphone by Circuit Labs. A best-selling smartphone built for everyday performance, blending modern design with reliable everyday tech.",
+    "description": "Hydra Gloss Lip Tint by Lumen. A best-selling lipstick crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.4,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      "vegan",
+      "long-lasting"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8B5E83",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "C97064",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "brand": "Marbella",
+    "name": "Classic Red Lipstick",
+    "price": "26.36",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/lipstick-1004/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Classic Red Lipstick by Marbella. A best-selling lipstick crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.4,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      "long-lasting",
+      "paraben-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "brand": "Aura",
+    "name": "Nude Whisper Lipstick",
+    "price": "18.88",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/lipstick-1005/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Nude Whisper Lipstick by Aura. A best-selling lipstick crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.5,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      "best-seller",
+      "long-lasting"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "A64B4B",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "C97064",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "brand": "Marbella",
+    "name": "Silk Finish Foundation",
+    "price": "35.59",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/foundation-1006/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Silk Finish Foundation by Marbella. A best-selling foundation crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.5,
+    "category": "foundation",
+    "product_type": "foundation",
+    "tag_list": [
+      "long-lasting",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "8B5E83",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "brand": "Nocturne",
+    "name": "Second Skin Foundation",
+    "price": "39.43",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/foundation-1007/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Second Skin Foundation by Nocturne. A best-selling foundation crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "foundation",
+    "product_type": "foundation",
+    "tag_list": [
+      "cruelty-free",
+      "paraben-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "C97064",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "A64B4B",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1008,
+    "brand": "Solstice",
+    "name": "Dewy Glow Foundation",
+    "price": "14.05",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/foundation-1008/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Dewy Glow Foundation by Solstice. A best-selling foundation crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
     "rating": 4.7,
-    "category": "smartphones",
-    "product_type": "smartphones",
+    "category": "foundation",
+    "product_type": "foundation",
     "tag_list": [
-      "top-rated",
-      "warranty-included"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      }
-    ]
-  },
-  {
-    "id": 4004,
-    "brand": "Pinnacle Tech",
-    "name": "Aria SE Phone",
-    "price": "591.06",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1736191550786-46a46aa47394?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "Aria SE Phone by Pinnacle Tech. A best-selling smartphone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.4,
-    "category": "smartphones",
-    "product_type": "smartphones",
-    "tag_list": [
-      "new",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      }
-    ]
-  },
-  {
-    "id": 4005,
-    "brand": "Bytewave",
-    "name": "Zenith Pro Smartphone",
-    "price": "546.66",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1736191550786-46a46aa47394?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "Zenith Pro Smartphone by Bytewave. A best-selling smartphone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.6,
-    "category": "smartphones",
-    "product_type": "smartphones",
-    "tag_list": [
-      "new",
-      "warranty-included"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4006,
-    "brand": "Halo Electronics",
-    "name": "AeroBook 14 Laptop",
-    "price": "224.61",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "AeroBook 14 Laptop by Halo Electronics. A best-selling laptop built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.0,
-    "category": "laptops",
-    "product_type": "laptops",
-    "tag_list": [
-      "top-rated",
-      "fast-shipping"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4007,
-    "brand": "Kinetic Devices",
-    "name": "TitanBook Pro Laptop",
-    "price": "376.97",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "TitanBook Pro Laptop by Kinetic Devices. A best-selling laptop built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.3,
-    "category": "laptops",
-    "product_type": "laptops",
-    "tag_list": [
-      "fast-shipping",
-      "new"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      }
-    ]
-  },
-  {
-    "id": 4008,
-    "brand": "Orbitals",
-    "name": "SlimEdge 13 Laptop",
-    "price": "470.34",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "SlimEdge 13 Laptop by Orbitals. A best-selling laptop built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.6,
-    "category": "laptops",
-    "product_type": "laptops",
-    "tag_list": [
-      "fast-shipping",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4009,
-    "brand": "Streamline Tech",
-    "name": "PowerCore 16 Laptop",
-    "price": "77.81",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "PowerCore 16 Laptop by Streamline Tech. A best-selling laptop built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.6,
-    "category": "laptops",
-    "product_type": "laptops",
-    "tag_list": [
-      "best-seller",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      }
-    ]
-  },
-  {
-    "id": 4010,
-    "brand": "Apex Gear",
-    "name": "FeatherLite Laptop",
-    "price": "349.41",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "FeatherLite Laptop by Apex Gear. A best-selling laptop built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "laptops",
-    "product_type": "laptops",
-    "tag_list": [
-      "energy-efficient",
-      "new"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4011,
-    "brand": "Lumen Digital",
-    "name": "CloudSound Wireless Headphones",
-    "price": "704.09",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1599669454699-248893623440?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "CloudSound Wireless Headphones by Lumen Digital. A best-selling headphone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.0,
-    "category": "headphones",
-    "product_type": "headphones",
-    "tag_list": [
-      "best-seller",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      }
-    ]
-  },
-  {
-    "id": 4012,
-    "brand": "Corevox",
-    "name": "BassLine Studio Headphones",
-    "price": "686.08",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1599669454699-248893623440?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "BassLine Studio Headphones by Corevox. A best-selling headphone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.8,
-    "category": "headphones",
-    "product_type": "headphones",
-    "tag_list": [
-      "best-seller",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4013,
-    "brand": "Driftline Tech",
-    "name": "AirWave ANC Headphones",
-    "price": "428.15",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1599669454699-248893623440?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "AirWave ANC Headphones by Driftline Tech. A best-selling headphone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.2,
-    "category": "headphones",
-    "product_type": "headphones",
-    "tag_list": [
-      "new",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4014,
-    "brand": "Northbeam",
-    "name": "EchoFit Sport Headphones",
-    "price": "387.92",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1599669454699-248893623440?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "EchoFit Sport Headphones by Northbeam. A best-selling headphone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.1,
-    "category": "headphones",
-    "product_type": "headphones",
-    "tag_list": [
-      "best-seller",
-      "fast-shipping"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      }
-    ]
-  },
-  {
-    "id": 4015,
-    "brand": "Nexova",
-    "name": "SilentZone Headphones",
-    "price": "779.61",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1599669454699-248893623440?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "SilentZone Headphones by Nexova. A best-selling headphone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.9,
-    "category": "headphones",
-    "product_type": "headphones",
-    "tag_list": [
-      "new",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      }
-    ]
-  },
-  {
-    "id": 4016,
-    "brand": "Volt & Co.",
-    "name": "PulseTrack Smartwatch",
-    "price": "895.34",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722153105551-cfea928e80de?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "PulseTrack Smartwatch by Volt & Co.. A best-selling smartwatche built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.4,
-    "category": "smartwatches",
-    "product_type": "smartwatches",
-    "tag_list": [
-      "new",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4017,
-    "brand": "Circuit Labs",
-    "name": "OrbitFit Smartwatch",
-    "price": "246.28",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722153105551-cfea928e80de?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "OrbitFit Smartwatch by Circuit Labs. A best-selling smartwatche built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.6,
-    "category": "smartwatches",
-    "product_type": "smartwatches",
-    "tag_list": [
-      "top-rated",
+      "paraben-free",
       "best-seller"
     ],
     "product_colors": [
       {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
+        "hex_value": "5C4033",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
+        "hex_value": "C97064",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
+        "hex_value": "B76E79",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4018,
-    "brand": "Pinnacle Tech",
-    "name": "ChronoSport Watch",
-    "price": "84.37",
+    "id": 1009,
+    "brand": "Marbella",
+    "name": "Matte Perfection Foundation",
+    "price": "12.23",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722153105551-cfea928e80de?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/foundation-1009/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "ChronoSport Watch by Pinnacle Tech. A best-selling smartwatche built for everyday performance, blending modern design with reliable everyday tech.",
+    "description": "Matte Perfection Foundation by Marbella. A best-selling foundation crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.2,
+    "category": "foundation",
+    "product_type": "foundation",
+    "tag_list": [
+      "long-lasting",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "C97064",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "brand": "Lumen",
+    "name": "Precision Gel Eyeliner",
+    "price": "31.34",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/eyeliner-1010/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Precision Gel Eyeliner by Lumen. A best-selling eyeliner crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.0,
+    "category": "eyeliner",
+    "product_type": "eyeliner",
+    "tag_list": [
+      "paraben-free",
+      "cruelty-free"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "D2A679",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "C97064",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1011,
+    "brand": "Petal & Co.",
+    "name": "Waterproof Liquid Liner",
+    "price": "33.53",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/eyeliner-1011/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Waterproof Liquid Liner by Petal & Co.. A best-selling eyeliner crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.5,
+    "category": "eyeliner",
+    "product_type": "eyeliner",
+    "tag_list": [
+      "paraben-free",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "8B5E83",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1012,
+    "brand": "Aura",
+    "name": "Smudge-Proof Kohl Pencil",
+    "price": "39.21",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/eyeliner-1012/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Smudge-Proof Kohl Pencil by Aura. A best-selling eyeliner crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "eyeliner",
+    "product_type": "eyeliner",
+    "tag_list": [
+      "best-seller",
+      "vegan"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "8B5E83",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "A64B4B",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "brand": "Petal & Co.",
+    "name": "Sunset Eyeshadow Palette",
+    "price": "35.0",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/eyeshadow-1013/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Sunset Eyeshadow Palette by Petal & Co.. A best-selling eyeshadow crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.3,
+    "category": "eyeshadow",
+    "product_type": "eyeshadow",
+    "tag_list": [
+      "vegan",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "D2A679",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1014,
+    "brand": "Solstice",
+    "name": "Earth Tones Palette",
+    "price": "32.1",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/eyeshadow-1014/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Earth Tones Palette by Solstice. A best-selling eyeshadow crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.6,
+    "category": "eyeshadow",
+    "product_type": "eyeshadow",
+    "tag_list": [
+      "long-lasting",
+      "best-seller"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "D2A679",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "C97064",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "brand": "Solstice",
+    "name": "Shimmer Duo Eyeshadow",
+    "price": "11.44",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/eyeshadow-1015/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Shimmer Duo Eyeshadow by Solstice. A best-selling eyeshadow crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.5,
+    "category": "eyeshadow",
+    "product_type": "eyeshadow",
+    "tag_list": [
+      "cruelty-free",
+      "long-lasting"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "5C4033",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "A64B4B",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1016,
+    "brand": "Lumen",
+    "name": "Rosy Glow Blush",
+    "price": "14.42",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/blush-1016/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Rosy Glow Blush by Lumen. A best-selling blush crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
     "rating": 3.9,
-    "category": "smartwatches",
-    "product_type": "smartwatches",
-    "tag_list": [
-      "fast-shipping",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4019,
-    "brand": "Bytewave",
-    "name": "VitalBand Smartwatch",
-    "price": "566.49",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722153105551-cfea928e80de?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "VitalBand Smartwatch by Bytewave. A best-selling smartwatche built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.8,
-    "category": "smartwatches",
-    "product_type": "smartwatches",
-    "tag_list": [
-      "new",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4020,
-    "brand": "Halo Electronics",
-    "name": "TimeSync Watch",
-    "price": "179.89",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722153105551-cfea928e80de?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "TimeSync Watch by Halo Electronics. A best-selling smartwatche built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.8,
-    "category": "smartwatches",
-    "product_type": "smartwatches",
-    "tag_list": [
-      "new",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4021,
-    "brand": "Kinetic Devices",
-    "name": "SnapShot Mirrorless Camera",
-    "price": "158.46",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1634664362784-760b62d8e2bb?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "SnapShot Mirrorless Camera by Kinetic Devices. A best-selling camera built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.4,
-    "category": "cameras",
-    "product_type": "cameras",
-    "tag_list": [
-      "top-rated",
-      "warranty-included"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4022,
-    "brand": "Orbitals",
-    "name": "ClearView Action Camera",
-    "price": "88.08",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1634664362784-760b62d8e2bb?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "ClearView Action Camera by Orbitals. A best-selling camera built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.7,
-    "category": "cameras",
-    "product_type": "cameras",
-    "tag_list": [
-      "fast-shipping",
-      "new"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4023,
-    "brand": "Streamline Tech",
-    "name": "PixelPro DSLR Camera",
-    "price": "670.05",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1634664362784-760b62d8e2bb?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "PixelPro DSLR Camera by Streamline Tech. A best-selling camera built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.1,
-    "category": "cameras",
-    "product_type": "cameras",
-    "tag_list": [
-      "top-rated",
-      "fast-shipping"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4024,
-    "brand": "Apex Gear",
-    "name": "MotionCap Camera",
-    "price": "476.67",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1634664362784-760b62d8e2bb?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "MotionCap Camera by Apex Gear. A best-selling camera built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.8,
-    "category": "cameras",
-    "product_type": "cameras",
-    "tag_list": [
-      "top-rated",
-      "warranty-included"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      }
-    ]
-  },
-  {
-    "id": 4025,
-    "brand": "Lumen Digital",
-    "name": "LensCraft Compact Camera",
-    "price": "594.09",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1634664362784-760b62d8e2bb?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "LensCraft Compact Camera by Lumen Digital. A best-selling camera built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.4,
-    "category": "cameras",
-    "product_type": "cameras",
-    "tag_list": [
-      "new",
-      "best-seller"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4026,
-    "brand": "Corevox",
-    "name": "FlexPad 11 Tablet",
-    "price": "79.86",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1585790051609-09928c362a42?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "FlexPad 11 Tablet by Corevox. A best-selling tablet built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.1,
-    "category": "tablets",
-    "product_type": "tablets",
-    "tag_list": [
-      "new",
-      "fast-shipping"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      }
-    ]
-  },
-  {
-    "id": 4027,
-    "brand": "Driftline Tech",
-    "name": "InkNote Tablet",
-    "price": "343.53",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1585790051609-09928c362a42?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "InkNote Tablet by Driftline Tech. A best-selling tablet built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.3,
-    "category": "tablets",
-    "product_type": "tablets",
-    "tag_list": [
-      "new",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4028,
-    "brand": "Northbeam",
-    "name": "AeroPad Mini Tablet",
-    "price": "881.83",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1585790051609-09928c362a42?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "AeroPad Mini Tablet by Northbeam. A best-selling tablet built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "tablets",
-    "product_type": "tablets",
+    "category": "blush",
+    "product_type": "blush",
     "tag_list": [
       "best-seller",
-      "top-rated"
+      "cruelty-free"
     ],
     "product_colors": [
       {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
+        "hex_value": "D2A679",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
+        "hex_value": "C97064",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4029,
-    "brand": "Nexova",
-    "name": "CanvasView Tablet",
-    "price": "819.99",
+    "id": 1017,
+    "brand": "Bloom\u00e9",
+    "name": "Peach Blossom Blush",
+    "price": "28.52",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1585790051609-09928c362a42?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/blush-1017/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "CanvasView Tablet by Nexova. A best-selling tablet built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "tablets",
-    "product_type": "tablets",
-    "tag_list": [
-      "energy-efficient",
-      "best-seller"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4030,
-    "brand": "Volt & Co.",
-    "name": "SketchPad Pro Tablet",
-    "price": "443.37",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1585790051609-09928c362a42?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "SketchPad Pro Tablet by Volt & Co.. A best-selling tablet built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "tablets",
-    "product_type": "tablets",
-    "tag_list": [
-      "best-seller",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4031,
-    "brand": "Circuit Labs",
-    "name": "PlayCore X Console",
-    "price": "499.56",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1683823362932-6f7599661d22?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "PlayCore X Console by Circuit Labs. A best-selling gaming console built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.6,
-    "category": "gaming_consoles",
-    "product_type": "gaming_consoles",
-    "tag_list": [
-      "fast-shipping",
-      "best-seller"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4032,
-    "brand": "Pinnacle Tech",
-    "name": "NovaPlay Handheld",
-    "price": "621.93",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1683823362932-6f7599661d22?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "NovaPlay Handheld by Pinnacle Tech. A best-selling gaming console built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.8,
-    "category": "gaming_consoles",
-    "product_type": "gaming_consoles",
-    "tag_list": [
-      "top-rated",
-      "warranty-included"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4033,
-    "brand": "Bytewave",
-    "name": "ArcadeMax Console",
-    "price": "31.79",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1683823362932-6f7599661d22?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "ArcadeMax Console by Bytewave. A best-selling gaming console built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "gaming_consoles",
-    "product_type": "gaming_consoles",
-    "tag_list": [
-      "warranty-included",
-      "best-seller"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4034,
-    "brand": "Halo Electronics",
-    "name": "PixelPlay Mini Console",
-    "price": "89.58",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1683823362932-6f7599661d22?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "PixelPlay Mini Console by Halo Electronics. A best-selling gaming console built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.4,
-    "category": "gaming_consoles",
-    "product_type": "gaming_consoles",
-    "tag_list": [
-      "fast-shipping",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      }
-    ]
-  },
-  {
-    "id": 4035,
-    "brand": "Kinetic Devices",
-    "name": "GameSphere Console",
-    "price": "841.14",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1683823362932-6f7599661d22?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "GameSphere Console by Kinetic Devices. A best-selling gaming console built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "gaming_consoles",
-    "product_type": "gaming_consoles",
-    "tag_list": [
-      "warranty-included",
-      "best-seller"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      }
-    ]
-  },
-  {
-    "id": 4036,
-    "brand": "Orbitals",
-    "name": "BoomBox Portable Speaker",
-    "price": "475.45",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1542483381-41a479b1fb88?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "BoomBox Portable Speaker by Orbitals. A best-selling speaker built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.3,
-    "category": "speakers",
-    "product_type": "speakers",
-    "tag_list": [
-      "top-rated",
-      "best-seller"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4037,
-    "brand": "Streamline Tech",
-    "name": "EchoDome Smart Speaker",
-    "price": "221.60",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1542483381-41a479b1fb88?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "EchoDome Smart Speaker by Streamline Tech. A best-selling speaker built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "speakers",
-    "product_type": "speakers",
-    "tag_list": [
-      "energy-efficient",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4038,
-    "brand": "Apex Gear",
-    "name": "PulseWave Bluetooth Speaker",
-    "price": "244.13",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1542483381-41a479b1fb88?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "PulseWave Bluetooth Speaker by Apex Gear. A best-selling speaker built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.6,
-    "category": "speakers",
-    "product_type": "speakers",
-    "tag_list": [
-      "warranty-included",
-      "new"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      }
-    ]
-  },
-  {
-    "id": 4039,
-    "brand": "Lumen Digital",
-    "name": "DeepBass Speaker",
-    "price": "475.19",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1542483381-41a479b1fb88?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "DeepBass Speaker by Lumen Digital. A best-selling speaker built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.6,
-    "category": "speakers",
-    "product_type": "speakers",
-    "tag_list": [
-      "top-rated",
-      "new"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      }
-    ]
-  },
-  {
-    "id": 4040,
-    "brand": "Corevox",
-    "name": "SkyTone Speaker",
-    "price": "306.73",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1542483381-41a479b1fb88?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "SkyTone Speaker by Corevox. A best-selling speaker built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "speakers",
-    "product_type": "speakers",
-    "tag_list": [
-      "new",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4041,
-    "brand": "Driftline Tech",
-    "name": "ClearView 27 Monitor",
-    "price": "357.29",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722159475082-0a2331580de3?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "ClearView 27 Monitor by Driftline Tech. A best-selling monitor built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.4,
-    "category": "monitors",
-    "product_type": "monitors",
-    "tag_list": [
-      "new",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      }
-    ]
-  },
-  {
-    "id": 4042,
-    "brand": "Northbeam",
-    "name": "UltraWide Curve Monitor",
-    "price": "327.66",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722159475082-0a2331580de3?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "UltraWide Curve Monitor by Northbeam. A best-selling monitor built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.8,
-    "category": "monitors",
-    "product_type": "monitors",
-    "tag_list": [
-      "fast-shipping",
-      "new"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4043,
-    "brand": "Nexova",
-    "name": "PixelEdge 4K Monitor",
-    "price": "118.29",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722159475082-0a2331580de3?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "PixelEdge 4K Monitor by Nexova. A best-selling monitor built for everyday performance, blending modern design with reliable everyday tech.",
+    "description": "Peach Blossom Blush by Bloom\u00e9. A best-selling blush crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
     "rating": 4.2,
-    "category": "monitors",
-    "product_type": "monitors",
+    "category": "blush",
+    "product_type": "blush",
     "tag_list": [
-      "top-rated",
-      "warranty-included"
+      "long-lasting",
+      "cruelty-free"
     ],
     "product_colors": [
       {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
+        "hex_value": "A64B4B",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
+        "hex_value": "C97064",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
+        "hex_value": "D2A679",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4044,
-    "brand": "Volt & Co.",
-    "name": "FocusFrame Monitor",
-    "price": "453.61",
+    "id": 1018,
+    "brand": "Velora",
+    "name": "Cream Blush Stick",
+    "price": "15.86",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722159475082-0a2331580de3?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/blush-1018/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "FocusFrame Monitor by Volt & Co.. A best-selling monitor built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.0,
-    "category": "monitors",
-    "product_type": "monitors",
-    "tag_list": [
-      "best-seller",
-      "fast-shipping"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4045,
-    "brand": "Circuit Labs",
-    "name": "VividScreen Monitor",
-    "price": "787.09",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1722159475082-0a2331580de3?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "VividScreen Monitor by Circuit Labs. A best-selling monitor built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.7,
-    "category": "monitors",
-    "product_type": "monitors",
-    "tag_list": [
-      "fast-shipping",
-      "warranty-included"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      }
-    ]
-  },
-  {
-    "id": 4046,
-    "brand": "Pinnacle Tech",
-    "name": "ClickType Mechanical Keyboard",
-    "price": "35.82",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1566748861876-c7e74c17eb5a?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "ClickType Mechanical Keyboard by Pinnacle Tech. A best-selling keyboard built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.8,
-    "category": "keyboards",
-    "product_type": "keyboards",
-    "tag_list": [
-      "fast-shipping",
-      "new"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4047,
-    "brand": "Bytewave",
-    "name": "SilentTouch Keyboard",
-    "price": "704.74",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1566748861876-c7e74c17eb5a?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "SilentTouch Keyboard by Bytewave. A best-selling keyboard built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.6,
-    "category": "keyboards",
-    "product_type": "keyboards",
-    "tag_list": [
-      "energy-efficient",
-      "warranty-included"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4048,
-    "brand": "Halo Electronics",
-    "name": "GlowKey RGB Keyboard",
-    "price": "595.44",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1566748861876-c7e74c17eb5a?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "GlowKey RGB Keyboard by Halo Electronics. A best-selling keyboard built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.6,
-    "category": "keyboards",
-    "product_type": "keyboards",
-    "tag_list": [
-      "new",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4049,
-    "brand": "Kinetic Devices",
-    "name": "CompactType Keyboard",
-    "price": "244.32",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1566748861876-c7e74c17eb5a?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "CompactType Keyboard by Kinetic Devices. A best-selling keyboard built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "keyboards",
-    "product_type": "keyboards",
-    "tag_list": [
-      "best-seller",
-      "new"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      }
-    ]
-  },
-  {
-    "id": 4050,
-    "brand": "Orbitals",
-    "name": "TravelType Keyboard",
-    "price": "218.28",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1566748861876-c7e74c17eb5a?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "TravelType Keyboard by Orbitals. A best-selling keyboard built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.6,
-    "category": "keyboards",
-    "product_type": "keyboards",
-    "tag_list": [
-      "new",
-      "best-seller"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      }
-    ]
-  },
-  {
-    "id": 4051,
-    "brand": "Streamline Tech",
-    "name": "GlideTrack Wireless Mouse",
-    "price": "380.22",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1630515787921-0086c7cca853?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "GlideTrack Wireless Mouse by Streamline Tech. A best-selling mice built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.8,
-    "category": "mice",
-    "product_type": "mice",
-    "tag_list": [
-      "top-rated",
-      "new"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      }
-    ]
-  },
-  {
-    "id": 4052,
-    "brand": "Apex Gear",
-    "name": "PrecisionPro Mouse",
-    "price": "569.48",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1630515787921-0086c7cca853?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "PrecisionPro Mouse by Apex Gear. A best-selling mice built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.8,
-    "category": "mice",
-    "product_type": "mice",
-    "tag_list": [
-      "energy-efficient",
-      "warranty-included"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      }
-    ]
-  },
-  {
-    "id": 4053,
-    "brand": "Lumen Digital",
-    "name": "ErgoGrip Mouse",
-    "price": "720.16",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1630515787921-0086c7cca853?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "ErgoGrip Mouse by Lumen Digital. A best-selling mice built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.8,
-    "category": "mice",
-    "product_type": "mice",
-    "tag_list": [
-      "new",
-      "best-seller"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      }
-    ]
-  },
-  {
-    "id": 4054,
-    "brand": "Corevox",
-    "name": "SwiftClick Mouse",
-    "price": "654.30",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1630515787921-0086c7cca853?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "SwiftClick Mouse by Corevox. A best-selling mice built for everyday performance, blending modern design with reliable everyday tech.",
+    "description": "Cream Blush Stick by Velora. A best-selling blush crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
     "rating": 4.7,
-    "category": "mice",
-    "product_type": "mice",
-    "tag_list": [
-      "top-rated",
-      "best-seller"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      }
-    ]
-  },
-  {
-    "id": 4055,
-    "brand": "Driftline Tech",
-    "name": "SilentGlide Mouse",
-    "price": "879.08",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1630515787921-0086c7cca853?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "SilentGlide Mouse by Driftline Tech. A best-selling mice built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.3,
-    "category": "mice",
-    "product_type": "mice",
+    "category": "blush",
+    "product_type": "blush",
     "tag_list": [
       "best-seller",
-      "fast-shipping"
+      "long-lasting"
     ],
     "product_colors": [
       {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
+        "hex_value": "5C4033",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
+        "hex_value": "8B5E83",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
+        "hex_value": "D2A679",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4056,
-    "brand": "Northbeam",
-    "name": "SkyEye Camera Drone",
-    "price": "463.15",
+    "id": 1019,
+    "brand": "Marbella",
+    "name": "Volumizing Mascara",
+    "price": "40.93",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1504890001746-a9a68eda46e2?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/mascara-1019/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "SkyEye Camera Drone by Northbeam. A best-selling drone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.6,
-    "category": "drones",
-    "product_type": "drones",
-    "tag_list": [
-      "fast-shipping",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      }
-    ]
-  },
-  {
-    "id": 4057,
-    "brand": "Nexova",
-    "name": "AeroScout Mini Drone",
-    "price": "828.39",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1504890001746-a9a68eda46e2?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "AeroScout Mini Drone by Nexova. A best-selling drone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.9,
-    "category": "drones",
-    "product_type": "drones",
-    "tag_list": [
-      "new",
-      "warranty-included"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      }
-    ]
-  },
-  {
-    "id": 4058,
-    "brand": "Volt & Co.",
-    "name": "CloudChaser Drone",
-    "price": "313.80",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1504890001746-a9a68eda46e2?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "CloudChaser Drone by Volt & Co.. A best-selling drone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.6,
-    "category": "drones",
-    "product_type": "drones",
-    "tag_list": [
-      "warranty-included",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      }
-    ]
-  },
-  {
-    "id": 4059,
-    "brand": "Circuit Labs",
-    "name": "FlightPath Pro Drone",
-    "price": "758.18",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1504890001746-a9a68eda46e2?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "FlightPath Pro Drone by Circuit Labs. A best-selling drone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "drones",
-    "product_type": "drones",
+    "description": "Volumizing Mascara by Marbella. A best-selling mascara crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.7,
+    "category": "mascara",
+    "product_type": "mascara",
     "tag_list": [
       "best-seller",
-      "new"
+      "paraben-free"
     ],
     "product_colors": [
       {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
+        "hex_value": "8B5E83",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
+        "hex_value": "8E3B46",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
+        "hex_value": "B76E79",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4060,
-    "brand": "Pinnacle Tech",
-    "name": "HoverCam Drone",
-    "price": "405.69",
+    "id": 1020,
+    "brand": "Solstice",
+    "name": "Lengthening Mascara",
+    "price": "39.44",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1504890001746-a9a68eda46e2?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/mascara-1020/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "HoverCam Drone by Pinnacle Tech. A best-selling drone built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.3,
-    "category": "drones",
-    "product_type": "drones",
+    "description": "Lengthening Mascara by Solstice. A best-selling mascara crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.7,
+    "category": "mascara",
+    "product_type": "mascara",
     "tag_list": [
-      "warranty-included",
-      "fast-shipping"
+      "best-seller",
+      "paraben-free"
     ],
     "product_colors": [
       {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
+        "hex_value": "5C4033",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
+        "hex_value": "C97064",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4061,
-    "brand": "Bytewave",
-    "name": "VividView 55 Smart TV",
-    "price": "293.29",
+    "id": 1021,
+    "brand": "Petal & Co.",
+    "name": "Curl & Hold Mascara",
+    "price": "6.01",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/mascara-1021/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "VividView 55 Smart TV by Bytewave. A best-selling tv built for everyday performance, blending modern design with reliable everyday tech.",
+    "description": "Curl & Hold Mascara by Petal & Co.. A best-selling mascara crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
     "rating": 4.1,
-    "category": "tvs",
-    "product_type": "tvs",
+    "category": "mascara",
+    "product_type": "mascara",
     "tag_list": [
-      "warranty-included",
-      "energy-efficient"
+      "best-seller",
+      "cruelty-free"
     ],
     "product_colors": [
       {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
+        "hex_value": "D2A679",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
+        "hex_value": "8E3B46",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
+        "hex_value": "B76E79",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4062,
-    "brand": "Halo Electronics",
-    "name": "PixelFrame 4K TV",
-    "price": "259.21",
+    "id": 1022,
+    "brand": "Petal & Co.",
+    "name": "Glossy Nail Lacquer",
+    "price": "41.31",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/nail_polish-1022/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "PixelFrame 4K TV by Halo Electronics. A best-selling tv built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.2,
-    "category": "tvs",
-    "product_type": "tvs",
+    "description": "Glossy Nail Lacquer by Petal & Co.. A best-selling nail polish crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.5,
+    "category": "nail_polish",
+    "product_type": "nail_polish",
     "tag_list": [
-      "warranty-included",
+      "best-seller",
+      "long-lasting"
+    ],
+    "product_colors": [
+      {
+        "hex_value": "B76E79",
+        "colour_name": "Shade 1"
+      },
+      {
+        "hex_value": "8E3B46",
+        "colour_name": "Shade 2"
+      },
+      {
+        "hex_value": "D2A679",
+        "colour_name": "Shade 3"
+      }
+    ]
+  },
+  {
+    "id": 1023,
+    "brand": "Nocturne",
+    "name": "Matte Nail Polish",
+    "price": "25.53",
+    "price_sign": "$",
+    "currency": "USD",
+    "image_link": "https://picsum.photos/seed/nail_polish-1023/400/400",
+    "product_link": "https://example.com",
+    "website_link": "https://example.com",
+    "description": "Matte Nail Polish by Nocturne. A best-selling nail polish crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "nail_polish",
+    "product_type": "nail_polish",
+    "tag_list": [
+      "cruelty-free",
       "best-seller"
     ],
     "product_colors": [
       {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
+        "hex_value": "C97064",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
+        "hex_value": "8B5E83",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
+        "hex_value": "D2A679",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4063,
-    "brand": "Kinetic Devices",
-    "name": "ClearScreen 65 TV",
-    "price": "551.60",
+    "id": 1024,
+    "brand": "Lumen",
+    "name": "Chrome Nail Polish",
+    "price": "41.88",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/nail_polish-1024/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "ClearScreen 65 TV by Kinetic Devices. A best-selling tv built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.6,
-    "category": "tvs",
-    "product_type": "tvs",
-    "tag_list": [
-      "warranty-included",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
-      }
-    ]
-  },
-  {
-    "id": 4064,
-    "brand": "Orbitals",
-    "name": "HomeCinema TV",
-    "price": "126.30",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "HomeCinema TV by Orbitals. A best-selling tv built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.7,
-    "category": "tvs",
-    "product_type": "tvs",
-    "tag_list": [
-      "top-rated",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4065,
-    "brand": "Streamline Tech",
-    "name": "UltraGlow OLED TV",
-    "price": "829.29",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "UltraGlow OLED TV by Streamline Tech. A best-selling tv built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.6,
-    "category": "tvs",
-    "product_type": "tvs",
-    "tag_list": [
-      "top-rated",
-      "energy-efficient"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
-      },
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      }
-    ]
-  },
-  {
-    "id": 4066,
-    "brand": "Apex Gear",
-    "name": "FastCharge Wall Adapter",
-    "price": "130.73",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1530545233050-3f0a5d0dd1ac?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "FastCharge Wall Adapter by Apex Gear. A best-selling charger built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.2,
-    "category": "chargers",
-    "product_type": "chargers",
+    "description": "Chrome Nail Polish by Lumen. A best-selling nail polish crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "nail_polish",
+    "product_type": "nail_polish",
     "tag_list": [
       "best-seller",
-      "new"
+      "paraben-free"
     ],
     "product_colors": [
       {
-        "hex_value": "EDEDED",
-        "colour_name": "Pearl White"
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
+        "hex_value": "5C4033",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
+        "hex_value": "8B5E83",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4067,
-    "brand": "Lumen Digital",
-    "name": "PowerBrick GaN Charger",
-    "price": "388.19",
+    "id": 1025,
+    "brand": "Lumen",
+    "name": "Sun-Kissed Bronzer",
+    "price": "24.08",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1530545233050-3f0a5d0dd1ac?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/bronzer-1025/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "PowerBrick GaN Charger by Lumen Digital. A best-selling charger built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.6,
-    "category": "chargers",
-    "product_type": "chargers",
+    "description": "Sun-Kissed Bronzer by Lumen. A best-selling bronzer crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 4.3,
+    "category": "bronzer",
+    "product_type": "bronzer",
     "tag_list": [
-      "best-seller",
-      "energy-efficient"
+      "cruelty-free",
+      "vegan"
     ],
     "product_colors": [
       {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
+        "hex_value": "5C4033",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
+        "hex_value": "D2A679",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 3"
       }
     ]
   },
   {
-    "id": 4068,
-    "brand": "Corevox",
-    "name": "TravelCharge Duo",
-    "price": "189.81",
+    "id": 1026,
+    "brand": "Bloom\u00e9",
+    "name": "Contour Bronzing Powder",
+    "price": "26.12",
     "price_sign": "$",
     "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1530545233050-3f0a5d0dd1ac?w=500&h=500&fit=crop&q=80&auto=format",
+    "image_link": "https://picsum.photos/seed/bronzer-1026/400/400",
     "product_link": "https://example.com",
     "website_link": "https://example.com",
-    "description": "TravelCharge Duo by Corevox. A best-selling charger built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.9,
-    "category": "chargers",
-    "product_type": "chargers",
+    "description": "Contour Bronzing Powder by Bloom\u00e9. A best-selling bronzer crafted for everyday radiance, blending long-wear performance with skin-loving ingredients.",
+    "rating": 3.5,
+    "category": "bronzer",
+    "product_type": "bronzer",
     "tag_list": [
-      "fast-shipping",
-      "new"
+      "paraben-free",
+      "best-seller"
     ],
     "product_colors": [
       {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
+        "hex_value": "5C4033",
+        "colour_name": "Shade 1"
       },
       {
-        "hex_value": "2E4057",
-        "colour_name": "Midnight Blue"
+        "hex_value": "B76E79",
+        "colour_name": "Shade 2"
       },
       {
-        "hex_value": "3E5C4E",
-        "colour_name": "Forest Green"
-      }
-    ]
-  },
-  {
-    "id": 4069,
-    "brand": "Driftline Tech",
-    "name": "RapidCube Charger",
-    "price": "564.39",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1530545233050-3f0a5d0dd1ac?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "RapidCube Charger by Driftline Tech. A best-selling charger built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 3.7,
-    "category": "chargers",
-    "product_type": "chargers",
-    "tag_list": [
-      "warranty-included",
-      "fast-shipping"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "C0C0C2",
-        "colour_name": "Silver"
-      },
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "E3C16F",
-        "colour_name": "Champagne Gold"
-      }
-    ]
-  },
-  {
-    "id": 4070,
-    "brand": "Northbeam",
-    "name": "CompactVolt Charger",
-    "price": "650.57",
-    "price_sign": "$",
-    "currency": "USD",
-    "image_link": "https://images.unsplash.com/photo-1530545233050-3f0a5d0dd1ac?w=500&h=500&fit=crop&q=80&auto=format",
-    "product_link": "https://example.com",
-    "website_link": "https://example.com",
-    "description": "CompactVolt Charger by Northbeam. A best-selling charger built for everyday performance, blending modern design with reliable everyday tech.",
-    "rating": 4.5,
-    "category": "chargers",
-    "product_type": "chargers",
-    "tag_list": [
-      "energy-efficient",
-      "top-rated"
-    ],
-    "product_colors": [
-      {
-        "hex_value": "B23A48",
-        "colour_name": "Crimson Red"
-      },
-      {
-        "hex_value": "1D1D1F",
-        "colour_name": "Space Black"
-      },
-      {
-        "hex_value": "8A8D91",
-        "colour_name": "Graphite"
+        "hex_value": "E8A0BF",
+        "colour_name": "Shade 3"
       }
     ]
   }
